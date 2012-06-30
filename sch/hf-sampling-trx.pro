@@ -1,4 +1,4 @@
-update=pá 29 črv 23:18:55 2012
+update=so 30 črv 11:45:44 2012
 version=1
 last_client=eeschema
 [cvpcb]
@@ -127,3 +127,4 @@ LibName33=ms-power
 LibName34=si570
 LibName35=ms-audio
 LibName36=ms-conn
+LibName37=ms-ti

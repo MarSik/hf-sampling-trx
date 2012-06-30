@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date so 30 črv 00:27:21 2012
+EESchema Schematic File Version 2  date so 30 črv 11:50:59 2012
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,13 +35,15 @@ LIBS:ms-power
 LIBS:si570
 LIBS:ms-audio
 LIBS:ms-conn
+LIBS:ms-ti
+LIBS:hf-sampling-trx-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
-Date "29 jun 2012"
+Date "30 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
