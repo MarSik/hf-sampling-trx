@@ -1,0 +1,23 @@
+HF TRX based on QSD
+-------------------
+
+Important components:
+
+Si570 - any frequency I2C controlled square wave oscillator
+74CBT(LV)3253 - dual 1:4 analog multiplexor
+LT6231CS8 - ultra low noise (1.1nV/sqrtHz) opamp
+
+References:
+
+- Dan Tayloe, N7VE
+  Ultra Low Noise, High Performance, Zero IF Quadrature Product Detector and Preamplifier
+  http://www.norcalqrp.org/files/Tayloe_mixer_x3a.pdf
+
+- Gerald Youngblood, AC5OG
+  A Software-Defined Radio for the Masses
+  http://www.flex-radio.com/data/doc/qex1.pdf
+  http://www.flex-radio.com/data/doc/qex2.pdf
+  http://www.flex-radio.com/data/doc/qex3.pdf
+  http://www.flex-radio.com/data/doc/qex4.pdf
+
+

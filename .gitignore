@@ -1,3 +1,15 @@
+# Backups
+*.*~
+*.000
+*.bak
+-cache.lib
+
+# Compiled stuff
+*.elf
+*.lst
+*.hex
+*.eep
+
 # Compiled Object files
 *.slo
 *.lo
@@ -10,3 +22,4 @@
 *.lai
 *.la
 *.a
+
