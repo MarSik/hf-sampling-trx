@@ -23,3 +23,10 @@
 *.la
 *.a
 
+# LTSpice temporary files
+*.raw
+*.plt
+*.fft
+*.log
+
+

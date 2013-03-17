@@ -1,4 +1,4 @@
-update=st 13 bře 19:46:14 2013
+update=3/17/2013 8:13:34 AM
 last_client=eeschema
 [eeschema]
 version=1
@@ -40,5 +40,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=ms-parts
-LibName32=ms-conn
-LibName33=ms-opto
+LibName32=ms-power

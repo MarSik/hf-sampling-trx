@@ -1,12 +1,9 @@
-update=st  7 lis 10:08:45 2012
+update=12/18/2012 7:46:51 PM
 last_client=eeschema
 [eeschema]
 version=1
 LibDir=R:/
 NetFmtName=
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -45,3 +42,4 @@ LibName30=valves
 LibName31=ms-7400
 LibName32=ms-parts
 LibName33=ms-audio
+LibName34=ms-ti

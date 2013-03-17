@@ -1,11 +1,13 @@
-HF TRX based on QSD
--------------------
+HF RX based on QSD and class E TX
+---------------------------------
 
 Important components:
 
 Si570 - any frequency I2C controlled square wave oscillator
 74CBT(LV)3253 - dual 1:4 analog multiplexor
 LT6231CS8 - ultra low noise (1.1nV/sqrtHz) opamp
+ATXmega128A3U - 8bit micro with dual ADC and DAC
+XC9572XL - CPLD, programmable logic, 3.3V
 
 References:
 
@@ -20,4 +22,11 @@ References:
   http://www.flex-radio.com/data/doc/qex3.pdf
   http://www.flex-radio.com/data/doc/qex4.pdf
 
+- YU1LM
+  HF - 6m band pass filters
+  http://yu1lm.qrpradio.com/HF-6m%20BP%20YU1LM%20ver2.pdf
+
+- Dan Tayloe, N7VE
+  Class E Amplifiers - NorCal QRP Club
+  http://www.norcalqrp.org/files/class_e_amplifiers.pdf
 
