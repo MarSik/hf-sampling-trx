@@ -1,6 +1,6 @@
-update=st 21 lis 17:19:59 2012
+update=st 20 bře 23:29:17 2013
 version=1
-last_client=eeschema
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -34,12 +34,10 @@ LibName10=dip_sockets
 LibName11=ms-conn
 LibName12=Si570
 LibName13=ms-coilcraft
+LibName14=R:/ms-conn
+LibName15=R:/ms-intf
+LibName16=R:/ms-toroids
 LibDir=../../repo/KiCad
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=../../repo/KiCad
@@ -90,3 +88,8 @@ LibName35=ms-conn
 LibName36=ms-ti
 LibName37=ms-coilcraft
 LibName38=R:/ms-xilinx
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
