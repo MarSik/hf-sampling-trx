@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 3/24/2013 11:54:54 AM
+EESchema Schematic File Version 2  date ne 24 bře 22:39:58 2013
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,7 +45,7 @@ encoding utf-8
 Sheet 1 1
 Title "QSD transceiver - RX board"
 Date "24 mar 2013"
-Rev "D"
+Rev "E"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1457,4 +1457,70 @@ Cs 820n == BW 3.8kHz
 NoConn ~ 7400 1350
 Connection ~ 3650 1950
 Connection ~ 3650 950 
+$Comp
+L C C?
+U 1 1 514F73A0
+P 4400 3650
+F 0 "C?" H 4400 3750 40  0000 L CNN
+F 1 "C" H 4406 3565 40  0000 L CNN
+F 2 "~" H 4438 3500 30  0000 C CNN
+F 3 "~" H 4400 3650 60  0000 C CNN
+	1    4400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 514F73AD
+P 4400 4600
+F 0 "C?" H 4400 4700 40  0000 L CNN
+F 1 "C" H 4406 4515 40  0000 L CNN
+F 2 "~" H 4438 4450 30  0000 C CNN
+F 3 "~" H 4400 4600 60  0000 C CNN
+	1    4400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 514F73B5
+P 4400 4400
+F 0 "#PWR?" H 4400 4360 30  0001 C CNN
+F 1 "+3.3V" H 4400 4510 30  0000 C CNN
+F 2 "" H 4400 4400 60  0000 C CNN
+F 3 "" H 4400 4400 60  0000 C CNN
+	1    4400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 514F73C4
+P 4400 3450
+F 0 "#PWR?" H 4400 3410 30  0001 C CNN
+F 1 "+3.3V" H 4400 3560 30  0000 C CNN
+F 2 "" H 4400 3450 60  0000 C CNN
+F 3 "" H 4400 3450 60  0000 C CNN
+	1    4400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 514F73D3
+P 4400 3850
+F 0 "#PWR?" H 4400 3850 30  0001 C CNN
+F 1 "GND" H 4400 3780 30  0001 C CNN
+F 2 "" H 4400 3850 60  0000 C CNN
+F 3 "" H 4400 3850 60  0000 C CNN
+	1    4400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 514F73E2
+P 4400 4800
+F 0 "#PWR?" H 4400 4800 30  0001 C CNN
+F 1 "GND" H 4400 4730 30  0001 C CNN
+F 2 "" H 4400 4800 60  0000 C CNN
+F 3 "" H 4400 4800 60  0000 C CNN
+	1    4400 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
